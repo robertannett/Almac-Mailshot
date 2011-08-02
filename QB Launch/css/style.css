@@ -1,0 +1,82 @@
+/*
+Author: Robert Annett
+Project: Almac QB Launch Mailshot
+Date: 2nd Aug 2011
+*/
+
+
+/* Reset defaults */
+
+html, body, div, h1, h2, h3, h4, h5, h6, ul, ol, dl, li, dt, dd, p, blockquote, pre, form, fieldset, table, th, td { margin: 0; padding: 0; } /* Reset margins and padding */
+
+a:link, a:visited{text-decoration:none;outline:none;} /* Reset link styles */
+
+html {overflow: -moz-scrollbars-vertical;} /* Mozilla scrollbar fix */
+
+#skipto{position:absolute;left:-9999px;top:-9999px;} /* Hides the skip to link - useful for screen readers */
+
+.group:after {content: ".";display: block;height: 0;clear: both;visibility: hidden;} /* Automatically clears after any element with this class */
+
+/* Elements */
+body { font-family:"Helvetica Neue", Helvetica, Arial, sans-serif; font-size:13px;}
+
+/* Headings */
+
+
+
+h1{ margin-top:15px;}
+
+h2{ margin:15px 0; color:#ef3f35;}
+
+h3{}
+
+h4{}
+
+#content, #header, #footer, .welcome { margin:auto; width:917px; position:relative;}
+.main { background-image:url(../images/bg.png); background-repeat:repeat-x; background-position:top;}
+.caption {margin:-20px auto; width:830px;}
+.moreinfo, .comparison, .social {margin:auto; width:830px;}
+
+.welcome { font-size:3.8em;}
+.welcome p.name { position:absolute; top:163px; left:43px;}
+
+#footer { text-align:center;}
+/*
+# Images ################### 
+*/
+
+img{border:none;}
+img.left{margin:0 10px 10px 0;}
+img.right{margin:0 0 10px 10px;}
+
+ol li, ul li { list-style-position:outside; margin-left:15px; list-style-image:url(../images/dot.png);}
+ol, ul  { font-size:1.63em; line-height:1.7;}
+
+.caption { font-size:2.6em; margin-top:15px;}
+.comparison .express { float:left; width:405px; padding-right:10px; }
+.comparison .premium { float:left; width:405px; padding-left:10px;}
+
+.moreinfo { clear:both; padding-top:60px;}
+.moreinfo p{ font-size:2em; padding-top:10px;}
+
+.social { font-size:1.6em;}
+.social .links .set { margin-right:50px;}
+.social .links .set.last { margin-right:0px;}
+/* Links */
+
+a{ color:#ef3f35;}
+a:hover{border-bottom:dotted 1px #ef3f35; margin-bottom:1px;}
+
+
+/* Typography */
+p{margin:0 0 1.3em;}
+
+
+/* Other */
+
+.right{float:right;}
+.left{float:left;}
+.clear{clear:both;}
+.alignleft{text-align: left;}
+.alignright{text-align: right;}
+.aligncenter{text-align: center;}
