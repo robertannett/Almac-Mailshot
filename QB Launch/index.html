@@ -13,9 +13,9 @@
     
         <div class="welcome">
     
-            <p class="name">Dear Gabriel,</p>
+            <p class="name">Dear [firstname,fallback=text],</p>
     
-            <img src="images/header-small.png" width="650" height="540" alt="QB Launch" />
+            <img editable="true" src="images/holding-large.png" width="650" height="540" alt="Product Launch" />
         
         </div>
     
@@ -23,7 +23,7 @@
         
         <div class="caption">
         
-            <p>The new <b>QB Express (48hr)</b> and QB Premium (96hr) are tailored to ensure thermal stability even in shock extreme temperatures.</p>
+            <multiline label="Main feature intro"><p>New Product Name / Description.</p></multiline>
           
         </div>
         <!-- End of Caption -->
@@ -32,25 +32,17 @@
     
             <div class="express">
             
-                <img src="images/qb-express-small.png" alt="QB Express" />
+                <img editable="true" src="images/qb-express-small.png" alt="QB Express" />
                 
-                <h1>Designes for depot to site shipment &amp; EU Destinations.</h1>
+                <multiline label="Product One Title"><h1>Product One</h1></multiline>
                 
-                <h2>Key Features:</h2>
+                <singleline label="Product List Name"><h2>Key Features:</h2></singleline>
                 
                 <ul>
                     
-                    <li>Tested to maintain temperatures between 2&deg;c to 8&deg;c &amp; 10&deg;c to 25&deg;c for <b>48 hours.</b></li>
-                    
-                    <li>Reduced weight for ease of handling at depots &amp; sites.</li>
-                    
-                    <li>Greater Thermal resistance.</li>
-                    
-                    <li>Made from 100% recyclable material.</li>
-                    
-                    <li>Lower columetric weight &ndash; reducing courrier costs.</li>
-                    
-                    <li>Robust materials for challenging transits, making handling much easier.</li>
+                    <repeater>
+                        <singleline label="Product One List Item"><li>List Item</li></singleline>
+                    </repeater>
                     
                 </ul>
         
@@ -61,23 +53,19 @@
         
             <div class="premium">
                 
-                <img src="images/qb-premium-small.png" alt="QB Premium" />
+                <img editable="true" src="images/qb-premium-small.png" alt="QB Premium" />
                
-                <h1>Designes for longer transits.</h1>
+                <multiline label="Product Two Title"><h1>Product Two</h1></multiline>
                 
-                <h2>Key Features:</h2>
+                <singleline label="Product List Name"><h2>Key Features:</h2></singleline>
                 
                 <ul>
                     
-                    <li>Tested to maintain temperatures between 2&deg;c to 8&deg;c &amp; 10&deg;c to 25&deg;c for <b>96 hours.</b></li>
+                    <repeater>
                     
-                    <li>Greater Thermal resistance.</li>
+                        <singleline label="Product Two List Item"><li>List Item</li></singleline>
                     
-                    <li>Modular construction for simplicity of use &amp; ease of packaging.</li>
-                    
-                    <li>Made from 100% recyclable material.</li>
-                    
-                    <li>Robust materials for challenging transits, making handling much easier.</li>
+                    </repeater>
                     
                 </ul>
         
@@ -93,32 +81,32 @@
     
     <div class="moreinfo clear">
     
-        <img src="images/arrow.png" width="89" height="87" alt="more" class="left" /><p>To find out more about our enhanced shipper range, please contact our dedicated Cold Chain team <a href="#">click here</a></p>
+        <img editable="true" src="images/arrow.png" width="89" height="87" alt="more" class="left" /><multiline label="Find out More"><p>To find out more about our product range, please click here <a href="#">click here</a></p></multiline>
     
 </div>
     <!-- End of Moreinfo -->
     
     <div class="social clear">
     
-        <p><b>Want to stay connected with Almac? you can find us here:</b></p>
+        <singleline label="Social Links"><p><b>Want to stay connected with Almac? you can find us here:</b></p></singleline>
         
         <div class="links">
         
             <span class="set">
             
-                <a href="#"><img src="images/social-linkedin.png" width="137" height="54" alt="LinkedIn" /></a> 
+                <a href="#"><img editable="true" src="images/social-linkedin.png" width="137" height="54" alt="LinkedIn" /></a> 
             
             </span>
             
             <span class="set">
             
-                <a href="#"><img src="images/social-twitter.png" width="126" height="53" alt="Twitter" /></a>
+                <a href="#"><img editable="true" src="images/social-twitter.png" width="126" height="53" alt="Twitter" /></a>
             
           </span>
             
             <span class="set last">
             
-                <a href="#"><img src="images/social-youtube.png" width="144" height="55" alt="YouTube" /></a>
+                <a href="#"><img editable="true" src="images/social-youtube.png" width="144" height="55" alt="YouTube" /></a>
             
             </span>
         
@@ -137,12 +125,12 @@
         
         <p>Reg. No: NI 41551.</p>
         
-        <p>if this email doesn't display properly you can <a href="#">view it in your web browser</a>.</p>
+        <p>if this email doesn't display properly you can <webversion style="color:#ef3f35;">view it in your web browser</webversion>.</p>
         
         <p>To ensure you don't miss future email updates, please add <a href="mailto:info@marketing.almacgroup.com">info@marketing.almacgroup.com</a> to your email address book or safe list.</p>
         
         <p>You have recieved this email because you have previously provided us with your email address and shown interest in us.<br />
-        If you do not want to recieve future emails please <a href="#">follow this link</a>.
+        If you do not want to recieve future emails please <unsubscribe style="color:#ef3f35;">follow this link</unsubscribe>.
         </p>
     
     </div>
