@@ -26,14 +26,14 @@ body { font-family:"Helvetica Neue", Helvetica, Arial, sans-serif; font-size:10p
 
 h1{ margin-top:15px;}
 
-h2{ margin:15px 0; color:#ef3f35;}
+h2{ margin:15px 0; color:#ef3f35; font-size: 1.6em;}
 
 h3{}
 
 h4{}
 
 #content, #header, #footer, .welcome { margin:auto; width:650px; position:relative;}
-.main { background-image:url(../images/bg-small.png); background-repeat:repeat-x; background-position:top;}
+.main { background-image:url(../images/bg-small.png); background-repeat:repeat-x; background-position:top; height:550px;}
 .caption {margin:-20px auto; width:580px;}
 .moreinfo, .comparison, .social {margin:auto; width:580px;}
 
@@ -50,14 +50,14 @@ img.left{margin:0 10px 10px 0;}
 img.right{margin:0 0 10px 10px;}
 
 ol li, ul li { list-style-position:outside; margin-left:15px; list-style-image:url(../images/dot.png);}
-ol, ul  { font-size:1.63em; line-height:1.7;}
+ol, ul  { font-size: 1.42em; line-height: 2;}
 
-.caption { font-size:2.6em; margin-top:15px;}
+.caption { font-size:2.4em; margin-top:15px;}
 .comparison .express { float:left; width:280px; padding-right:10px; }
 .comparison .premium { float:left; width:280px; padding-left:10px;}
 
 .moreinfo { clear:both; padding-top:30px;}
-.moreinfo p{ font-size:2em; padding-top:10px;}
+.moreinfo p{ font-size: 1.9em; padding-top: 1em;}
 
 .social { font-size:1.6em;}
 .social .links .set { margin-right:20px;}
